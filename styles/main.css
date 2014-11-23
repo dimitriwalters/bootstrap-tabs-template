@@ -20,3 +20,28 @@ body {
   line-height: 40px;
   text-align: center;
 }
+
+.sub-tabs {
+  border-bottom: none;
+  float: right;
+}
+
+.sub-tabs>li {
+  float: right;
+  clear: right;
+  font-size: 12px;
+}
+
+.sub-tabs>li>a {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.sub-tabs>li.active>a, .sub-tabs>li.active>a:hover, .sub-tabs>li.active>a:focus {
+  border-color: #fff;
+}
+
+.sub-tabs>li>a:hover {
+  background-color: inherit;
+  border-color: #fff;
+}
